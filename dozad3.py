@@ -1,0 +1,5 @@
+print("czesc, jestem")
+print("Damian i lubie piłke nożna")
+print("jak i duzo innych sportów") 
+print("i je uprawiam")
+print( "\n" )
