@@ -13,6 +13,8 @@ lista=[
     [1,2,3,4]
 ]
 
+#ZADANIE 3==============
+
 for row in lista:
     print(row)
 
@@ -39,7 +41,7 @@ for row in lista:
     print(listanowa)
 
 
-
+#zadanie 4===============
     def monotonicznosc_funkcji(a,x,b):
         y=a*x+b
         if(a>0):
@@ -54,7 +56,7 @@ for row in lista:
 
     print(monotonicznosc_funkcji(1,5,2))
 
-
+#ZADANIE 5====================
 def prostopadlosc_funkcji():
      y=a*x+b
 # if(a1==a2): 
@@ -71,18 +73,20 @@ def prostopadle_funkcji(a1,a2):
     elif(a1*a2 == -1):
         return "prostopadle"
 print(prostopadle_funkcji(-1,1))
-#ZADANIE 9 ==========================
+#ZADANIE 6 ==========================
 import math
 def rownanie_okregu(a,x,y,b):
     return math.sqrt((x-a)**2)+((y-b)**2)
 print("okrag =", rownanie_okregu(2,3,2,5))
 
+
+#ZADANIE 8==================
 import math
 def suma_ciagu(a1=1,r=1,ile=10):
     return print("suma = ",(a1+(ile-1)/2)*ile)
 print(suma_ciagu())
 
-#ADANIE 10=======================
+#ADANIE 9=======================
 def ciag(*liczby):
     if len(liczby)==0:
         return 0.0
@@ -92,6 +96,7 @@ def ciag(*liczby):
             iloczyn*=i
         return iloczyn
 print(ciag(1,2,3,4,5))
+
 
 def to_lubie(**rzeczy):
     for cos in rzeczy:
@@ -107,6 +112,8 @@ listaZakupow = {'czekolada':5,'chleb':3,'maslo':2}
 print(sum(listaZakupow.values()))
 
 suma=0
+
+#ZADANIE 10=================
 def listaZakupow(** nazwa):
     suma=0
     for ile in nazwa:
